@@ -1,55 +1,55 @@
-# 🏦 Ejercicio 02: Sistema de Cuenta Bancaria (POO)
+# 💻 Ejercicio 2. Programación Orientada a Objetos (POO) en Python
 
-Este repositorio contiene una implementación práctica de la **Programación Orientada a Objetos (POO)** en Python, enfocada en la simulación de transacciones bancarias básicas.
+Este repositorio contiene prácticas fundamentales de POO, enfocándose en la lógica de validación, el manejo de estados y el modelado de clases.
 
-## 📝 Descripción del Proyecto
-El objetivo de este ejercicio es modelar el comportamiento de una cuenta de banco mediante una clase. El sistema permite gestionar el saldo de diferentes usuarios, validando que las operaciones de retiro sean seguras y no excedan el capital disponible.
-
-## 🛠️ Funcionalidades Principales
-* **Instanciación de Cuentas**: Creación de múltiples perfiles con titular, número de cuenta y saldo inicial.
-* **Método `depositar`**: Incrementa el saldo de la cuenta de forma sencilla.
-* **Método `retirar`**: Implementa una **validación lógica** para evitar retiros si los fondos son insuficientes.
-* **Consultas de Estado**: Métodos para obtener el saldo actual y un resumen general formateado.
-
----
-
-## 💻 Código Fuente
+## 1. Cuenta Bancaria
+Este ejercicio simula la gestión de una cuenta financiera básica, asegurando que las transacciones respeten las reglas de negocio (como no retirar más dinero del disponible).
 
 ```python
 class CuentaBancaria:
-    
     def __init__(self, titular, nCuenta, saldo):
-        """Constructor para inicializar los datos de la cuenta."""
         self.titular = titular
         self.nCuenta = nCuenta
         self.saldo = saldo
 
-    def depositar(self, cantidad):
-        """Suma una cantidad al saldo actual."""
-        self.saldo += cantidad
+    def depositar(self, cant):
+        self.saldo += cant
     
-    def retirar(self, retiro):
-        """Resta una cantidad si hay fondos suficientes."""
-        if retiro > self.saldo:
-            print(f"❌ Fondos Insuficientes para {self.titular}")
-            return 0
-        self.saldo -= retiro
-    
-    def consultarSaldo(self):
-        """Devuelve un mensaje con el saldo disponible."""
-        return f"El saldo actual es de ${self.saldo} pesos"
+    def retirar(self, ret):
+        if ret > self.saldo:
+            print("❌ Fondos Insuficientes")
+            return
+        self.saldo -= ret
     
     def mostrarInformacion(self):
-        """Muestra un resumen del estado de la cuenta."""
-        return f"👤 Titular: {self.titular} | 💰 Saldo: ${self.saldo}"
+        return f"👤 {self.titular} | 💰 Saldo: {self.saldo}"
+```
+## 2. Mascota Virtual
+Un sistema de control de estado emocional donde el nivel de felicidad está restringido a un rango específico mediante lógica matemática.
 
-# --- Instanciación de Objetos ---
-cuenta1 = CuentaBancaria("Carlos Gonzalez", "0001", 1000.00)
-cuenta2 = CuentaBancaria("Samanta Alcantara", "0002", 500.00)
-cuenta3 = CuentaBancaria("Jolliete Alcantara", "0003", 200.00)
+```python
+class Mascota:
+    def __init__(self, nombre, tipo, edad, nivelFelicidad):
+        self.nombre = nombre
+        self.tipo = tipo
+        self.edad = edad
+        self.nivelFelicidad = nivelFelicidad
+        
+    def alimentar(self, pts):
+        self.nivelFelicidad = min(100, self.nivelFelicidad + pts)
+        
+    def jugar(self, pts):
+        self.nivelFelicidad = min(100, self.nivelFelicidad + pts)
+        
+    def ignorar(self, pts):
+        self.nivelFelicidad = max(0, self.nivelFelicidad - pts)
+    
+    def esFeliz(self):
+        return self.nivelFelicidad > 70
+```
+🧠 Conceptos Aplicados
+UML: Modelado de estructura de clases y sus interacciones.
 
-# --- Pruebas de Funcionamiento ---
-cuenta1.retirar(500.00)
-print(cuenta1.mostrarInformacion())
+Encapsulamiento: Implementación de reglas de negocio para la validación de rangos y saldos.
 
-cuenta3.retirar(500.00)  # Esto dispar
+Lógica de Programación: Uso eficiente de funciones integradas como min() y max(), además de condicionales para el control de estados.
