@@ -1,4 +1,4 @@
-# 💻 Ejercicio 2. Programación Orientada a Objetos (POO) en Python
+# 💻 Ejercicio 02. Programación Orientada a Objetos (POO) en Python
 
 Este repositorio contiene prácticas fundamentales de POO, enfocándose en la lógica de validación, el manejo de estados y el modelado de clases.
 
