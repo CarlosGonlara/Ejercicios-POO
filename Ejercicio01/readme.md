@@ -1,6 +1,6 @@
-# 🎓 Proyecto: Clase Estudiante (POO)
+# 🎓 Ejercicio 01: Clase Estudiante (POO)
 
-Este repositorio contiene un ejercicio práctico de **Programación Orientada a Objetos** en Python, diseñado para modelar la gestión académica de un estudiante.
+Este repositorio contiene el ejercicio 01 de **Programación Orientada a Objetos** en Python, diseñado para modelar la gestión académica de un estudiante.
 
 ## 🛠️ Funcionalidades
 * **Clase `Estudiante`**: Estructura principal con atributos de nombre, edad y carrera.
