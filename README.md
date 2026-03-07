@@ -1,35 +1,55 @@
-# 🚀 Ejercicios de Programación Orientada a Objetos (POO)
+# 💻 Ejercicios de Programación Orientada a Objetos (POO)
 
-Bienvenido a mi repositorio de práctica de **POO**. Aquí documento mi progreso y resolución de problemas aplicando los pilares fundamentales del desarrollo de software orientado a objetos.
-
----
-
-## 📋 Contenido del Repositorio
-
-Este proyecto contiene una serie de desafíos y ejercicios diseñados para fortalecer el dominio de:
-
-* **Abstracción:** Definición de clases y objetos del mundo real.
-* **Encapsulamiento:** Uso de modificadores de acceso, getters y setters.
-* **Herencia:** Creación de jerarquías de clases eficientes.
-* **Polimorfismo:** Sobrecarga y sobrescritura de métodos.
+Este repositorio contiene las prácticas y proyectos desarrollados durante el curso de **Programación Orientada a Objetos**, enfocados en la resolución de problemas mediante el modelado de clases y objetos.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 👨‍💻 Perfil del Estudiante
 
-* **Lenguaje:** [Indica aquí el lenguaje, ej. Java, Python, C++]
-* **Entorno de desarrollo:** [Ej. VS Code, IntelliJ, PyCharm]
-* **Control de versiones:** Git & GitHub
+* **Nombre:** Carlos A. Gonzalez Lara
+* **Carrera:** Ingeniería en Sistemas Computacionales
+* **Semestre:** 2do Semestre
+* **Institución:** [Instituto Tecnológico de Ensenada (ITE)](http://www.ensenada.tecnm.mx/)
+* **Sistema:** [Tecnológico Nacional de México (TecNM)](https://www.tecnm.mx/)
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📘 Sobre la Materia: POO
+
+La materia de **Programación Orientada a Objetos** es fundamental en nuestra formación como Ingenieros en Sistemas. En este repositorio aplico conceptos clave como:
 
 
+* **Clases y Objetos:** Estructura básica de la programación.
+* **Encapsulamiento:** Protección de datos mediante métodos de acceso.
+* **Herencia:** Reutilización de código y jerarquías.
+* **Polimorfismo:** Flexibilidad en la ejecución de métodos.
+* **Interfaces y Clases Abstractas:** Definición de contratos y comportamientos.
 
-```text
-├── Ejercicio1/           # Descripción breve (ej. Gestión de empleados)
-│   └── src/              # Código fuente
-├── Ejercicio2/           # Descripción breve (ej. Sistema de biblioteca)
-│   └── src/
-└── README.md
+---
+
+## 📂 Estructura de Prácticas
+
+A continuación, se listan los módulos o unidades trabajadas durante el semestre:
+
+1. **Unidad 1:** Introducción al paradigma de la POO.
+2. **Unidad 2:** Clases, objetos, métodos y atributos.
+3. **Unidad 3:** Herencia y Polimorfismo.
+4. **Unidad 4:** Gestión de Excepciones.
+5. **Unidad 5:** Flujos y Archivos (I/O).
+
+---
+
+## 🛠️ Herramientas de Desarrollo
+
+* **Lenguaje:** [Python]
+* **IDE:** [VS Code]
+* **Gestión de Versiones:** Git
+
+---
+
+## 🎓 Contacto e Institución
+
+Este trabajo es parte del portafolio académico de la carrera de **Ingeniería en Sistemas Computacionales** en el **TecNM - Campus Ensenada**.
+
+* **GitHub:** [@CarlosGonlara](https://github.com/CarlosGonlara)
+* **Web ITE:** [ensenada.tecnm.mx](http://www.ensenada.tecnm.mx/)
