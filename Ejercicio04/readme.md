@@ -29,4 +29,22 @@ class Platillo:
     def tipo(self):
         print("...")
 
-# Subclases: Comida, Bebida, Postre
+# Subclases: Comida, Bebida, Postre 
+```
+## 🍽️ Módulo 2: Sistema de Taberna
+
+Este módulo establece la base para un sistema de personajes de videojuego, donde cada héroe tiene una identidad y un nivel de progresión.
+
+### 📝 Estructura del Código
+```python
+class Aventurero:
+    def __init__(self, nombre, nivel):
+        self.nombre = nombre
+        self.nivel = nivel
+        
+    def presentarse(self):
+        print(f"Soy {self.nombre}, aventurero de nivel {self.nivel}")
+        
+    def usar_habilidad(self):
+        print("...")
+# Subclases: Arquero, Guerrero, Mago, Tanque 
