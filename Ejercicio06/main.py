@@ -10,7 +10,7 @@ if __name__ == "__main__":
         Vaca("Bessie", 10),
         Creeper("Explosi", 20),
         Enderman("Tall Boi", 40),
-        Zombie ("Zombie", 15),
+        Zombie ("Come-cerebros", 15),
     ]
     for mob in mobs:
         mob.presentarse()
